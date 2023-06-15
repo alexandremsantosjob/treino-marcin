@@ -56,6 +56,19 @@ body{
     color: #ffafcc;
 }
 
+#icone{
+    margin-left: 100%;
+}
+
+#icone i{
+    color: white;
+}
+
+#icone i:hover{
+    color: #ffafcc;
+    transform: rotateX(160deg);
+}
+
 .sec{
     display: flex;
     align-items: center;
