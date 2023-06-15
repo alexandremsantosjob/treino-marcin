@@ -65,13 +65,6 @@ body{
 
 #icone i{
     color: white;
-    animation: bola 4s infinite;
-}
-
-@keyframes bola {
-    100%{
-        transform: rotate(360deg);
-    }
 }
 
 #icone i:hover{
