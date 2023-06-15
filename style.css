@@ -23,36 +23,39 @@ body{
 
 }
 
-.dias{
+.container{
     color: #fff;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     border: 2px solid #333;
     flex-wrap: wrap;
 }
 
-.dias .seg{
+.seg{
 
     padding: 20px;
     border: 1px black solid;
-    width: 120%;
+    width: 90%;
+    height: 100%;
     margin-bottom: 20px;
     border-radius: 20px;
 }
 
 
-.dias h1{
+.container h1{
     text-align: center;
     margin: 20px;
     color: #ffafcc;
 }
 
-.dias li{
+.container li{
     text-align: left;
     padding: 5px;
 }
 
-.dias b{
+.container b{
     color: #ffafcc;
 }
 
@@ -130,6 +133,9 @@ body{
     }
 }
 
+.dias{
+    display: flex;
+}
 .autor{
 font-size: 15px;
 color: white;
