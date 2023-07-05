@@ -134,3 +134,13 @@ font-size: 15px;
 color: white;
 padding-bottom: 20px;
 }
+
+#photo li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#photo img{
+    width: 100%;
+}
